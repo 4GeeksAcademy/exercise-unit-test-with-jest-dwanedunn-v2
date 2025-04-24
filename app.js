@@ -12,6 +12,6 @@ let valueInDollar = valueInEuro * 1.07;
 return valueInDollar;
 }
 
-console.log(sum(7,3))
+//console.log(sum(7,3))
 //We need to export the functions to use them.
-module.exports = {sum,fromEuroToDollar};
+module.exports = {sum,fromEuroToDollafromEuroToDollar};
