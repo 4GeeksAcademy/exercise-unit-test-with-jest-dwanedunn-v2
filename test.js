@@ -9,7 +9,7 @@ expect(total).toBe(23);
 //*** Second Test ***
 test("One euro should be 1.07 dollars",function(){
 // import function from app.js
-const {fromEuroToDollar}=require('./app.js');
+const {fromEuroToDollar} = require('./app.js');
 
 //use the function 
 const dollars = fromEuroToDollar(3.5);
